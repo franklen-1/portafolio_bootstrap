@@ -1,0 +1,7 @@
+
+/* Altura responsiva del carrusel */
+.carousel-h { height: 380px; }
+@media (max-width: 768px){ .carousel-h { height: 260px; } }
+
+/* Si tu imagen no llena, que recorte centrado */
+.object-fit-cover { object-fit: cover; }

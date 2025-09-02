@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto · Portafolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tus estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- NAVBAR (contacto activo) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobremi.html">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="experienciaprofesional.html">Experiencia Profesional</a></li>
+          <li class="nav-item"><a class="nav-link" href="experienciadocente.html">Experiencia Docente Universitaria</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO -->
+ <main class="container py-5" style="max-width:720px;">
+  <h1 class="mb-4">Contacto</h1>
+
+  <div class="alert alert-light border mb-4">
+    <ul class="list-unstyled mb-0">
+      <li><strong>Email:</strong> <a href="mailto:guilledu.pg@strategymge.com">guilledu.pg@strategymge.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/guillermopenagarcia/" target="_blank">/in/guillermopenagarcia</a></li>
+      <li><strong>Portafolio:</strong> <a href="https://guilledupenag.com/" target="_blank">guilledupenag.com</a></li>
+      <li><strong>Celular:</strong> (051) 964733868</li>
+    </ul>
+    <small class="text-muted">Datos desde tu CV. :contentReference[oaicite:9]{index=9}</small>
+  </div>
+
+  <form class="row gy-3" id="form-contacto">
+    <div class="col-12">
+      <label class="form-label" for="nombre">Nombre</label>
+      <input class="form-control" id="nombre" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="correo">Correo</label>
+      <input type="email" class="form-control" id="correo" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="mensaje">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-success">Enviar</button>
+    </div>
+  </form>
+</main>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center text-white py-3 bg-dark">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + tu JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
