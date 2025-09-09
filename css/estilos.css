@@ -29,8 +29,8 @@ body{
 }
 
 .container-all{
-padding-bottom: 150px;
-padding-top: 150px;
+padding-bottom: 100px;
+padding-top: 100px;
 }
 
 
@@ -132,3 +132,14 @@ main{
     border-radius: 50px;
     border: solid 1px #232935;
 } */
+ .btn-outline-primary{
+ 
+    color: #F2B544;
+    border: #F2B544;
+    border-radius: 30px;
+    border: solid 1px #F2B544;
+    width: 120px;
+ }
+ .card-body>h5,svg{
+     color: #F2B544;
+ }
